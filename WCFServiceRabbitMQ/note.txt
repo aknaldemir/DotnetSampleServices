@@ -1,0 +1,184 @@
+<Date/Time> Info [Type] Message
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 [Response] 220-FileZilla Server 1.12.1
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 [Response] 220 Please visit https://filezilla-project.org/
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 [Command] AUTH TLS
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 [Response] 234 Using authentication type TLS.
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 [Command] USER akin
+<09/01/2026 23:21:17> File-based Authenticator, FTP Session: 19 [Status] Invoking get_auth_data
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 [Response] 331 Please, specify the password.
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 [Command] PASS ****
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 [Response] 230 Login successful.
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Command] FEAT
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Response] 211-Features:
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Response] 211 End
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Command] OPTS UTF8 ON
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Response] 202 UTF8 mode is always enabled. No need to send this command
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Command] PWD
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Response] 257 "/" is current directory.
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Command] CWD /wcfservice
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Response] 250 CWD command successful
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Command] PBSZ 0
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Response] 200 PBSZ=0
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Command] PROT P
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Response] 200 Protection level set to P
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Command] TYPE A
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Response] 200 Type set to A
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,148)
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Command] MLSD
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:17> FTP Session 19 192.168.1.101 akin [Response] 226 Operation successful
+<09/01/2026 23:21:17> FTP Session 20 192.168.1.101 [Response] 220-FileZilla Server 1.12.1
+<09/01/2026 23:21:17> FTP Session 20 192.168.1.101 [Response] 220 Please visit https://filezilla-project.org/
+<09/01/2026 23:21:17> FTP Session 20 192.168.1.101 [Command] AUTH TLS
+<09/01/2026 23:21:17> FTP Session 20 192.168.1.101 [Response] 234 Using authentication type TLS.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 [Command] USER akin
+<09/01/2026 23:21:18> File-based Authenticator, FTP Session: 20 [Status] Invoking get_auth_data
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 [Response] 331 Please, specify the password.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 [Command] PASS ****
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 [Response] 230 Login successful.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] FEAT
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 211-Features:
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 211 End
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] OPTS UTF8 ON
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 202 UTF8 mode is always enabled. No need to send this command
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] PWD
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 257 "/" is current directory.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] CWD /wcfservice
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 250 CWD command successful
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] PBSZ 0
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 200 PBSZ=0
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] PROT P
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 200 Protection level set to P
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] TYPE A
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 200 Type set to A
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,153)
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] MLSD
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 226 Operation successful
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] TYPE I
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 200 Type set to I
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,144)
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] STOR MessageDispatcherService.svc
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Error] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Status] Client did not properly shut down TLS connection
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 425 Error while downloading data: ECONNABORTED - Connection aborted
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] TYPE A
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 200 Type set to A
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,176)
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] MLSD
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 226 Operation successful
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] TYPE I
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 200 Type set to I
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,135)
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] STOR Web.config
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Error] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Status] Client did not properly shut down TLS connection
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 425 Error while downloading data: ECONNABORTED - Connection aborted
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] TYPE A
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 200 Type set to A
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,145)
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] MLSD
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 226 Operation successful
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] CWD /wcfservice/bin
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 250 CWD command successful
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,166)
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] MLSD
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 226 Operation successful
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] CWD /wcfservice
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 250 CWD command successful
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] TYPE I
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 200 Type set to I
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,140)
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] STOR bin/CommonServiceDemo.dll
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Error] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Status] Client did not properly shut down TLS connection
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 425 Error while downloading data: ECONNABORTED - Connection aborted
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] CWD /wcfservice/bin
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 250 CWD command successful
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] TYPE A
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 200 Type set to A
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,155)
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] MLSD
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 226 Operation successful
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Command] CWD /wcfservice
+<09/01/2026 23:21:18> FTP Session 20 192.168.1.101 akin [Response] 250 CWD command successful
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] TYPE I
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 200 Type set to I
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,149)
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] STOR bin/CommonServiceDemo.pdb
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Error] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Status] Client did not properly shut down TLS connection
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 425 Error while downloading data: ECONNABORTED - Connection aborted
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] CWD /wcfservice/bin
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 250 CWD command successful
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] TYPE A
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 200 Type set to A
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,125)
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] MLSD
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 226 Operation successful
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] CWD /wcfservice
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 250 CWD command successful
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] TYPE I
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 200 Type set to I
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,83)
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] STOR bin/WcfServiceDemo.dll
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Error] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Status] Client did not properly shut down TLS connection
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 425 Error while downloading data: ECONNABORTED - Connection aborted
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] CWD /wcfservice/bin
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 250 CWD command successful
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] TYPE A
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 200 Type set to A
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,154)
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] MLSD
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 226 Operation successful
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] CWD /wcfservice
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 250 CWD command successful
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] TYPE I
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 200 Type set to I
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,107)
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] STOR bin/WcfServiceDemo.pdb
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Error] GnuTLS error -110 in gnutls_record_recv: The TLS connection was non-properly terminated.
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Status] Client did not properly shut down TLS connection
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 425 Error while downloading data: ECONNABORTED - Connection aborted
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] CWD /wcfservice/bin
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 250 CWD command successful
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] TYPE A
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 200 Type set to A
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] PASV
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 227 Entering Passive Mode (192,168,1,103,195,96)
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] MLSD
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 150 Starting data transfer.
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 226 Operation successful
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] CWD /wcfservice
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 250 CWD command successful
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Command] CWD /
+<09/01/2026 23:21:19> FTP Session 19 192.168.1.101 akin [Command] CWD /
+<09/01/2026 23:21:19> FTP Session 20 192.168.1.101 akin [Response] 250 CWD command successful
+<09/01/2026 23:21:19> FTP Session 19 192.168.1.101 akin [Response] 250 CWD command successful
